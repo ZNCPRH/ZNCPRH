@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Paralel Thread İşlemleri</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZNCPRH_FG005TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZNCPRH_FG005</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZNCPRH_FG005_001</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Paralel Function</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNCPRH_S033</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_DATA</PARAMETER>
+       <TYP>ZNCPRH_S034</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Batch Paralel Str.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>paralel return</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZNCPRH_FG005_002</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Paralel func.2</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNCPRH_TT033</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>paralel tt.</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZNCPRH_FG005_003</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>SPBT_INITIALIZE Paralel</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_RESULT</PARAMETER>
+       <TYP>FLAG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>DATA</PARAMETER>
+       <DBSTRUCT>ZNCPRH_S033</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EV_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Genel gösterge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Batch Paralel Str.</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

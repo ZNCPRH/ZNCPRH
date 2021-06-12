@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Onay Süreci FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZNCPRH_FG006TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZNCPRH_FG006</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZNCPRH_FG006_001</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Kaydet-Güncelle</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>NUMC09</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNCPRH_S036</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_ISLNO</PARAMETER>
+       <TYP>NUMC09</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>9 uzunluğunda numara alanı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>İşlem Oluşturma Kaydet-Güncelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_ISLNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>9 uzunluğunda numara alanı</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZNCPRH_FG006_002</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Onaya Gödner</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>NUMC09</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_BUTTON</PARAMETER>
+       <TYP>ZNCPRH_DE023</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_SEQNR</PARAMETER>
+       <TYP>ZNCPRH_DE016</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>9 uzunluğunda numara alanı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_BUTTON</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Süreci Butonlar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SEQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Sıra Numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZNCPRH_FG006_003</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Onay-Red-İptal İşlemleri</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>NUMC09</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ISLEM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNCPRH_DE024</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SEQNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNCPRH_DE016</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_BUTTON</PARAMETER>
+       <TYP>ZNCPRH_DE023</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_SEQNR</PARAMETER>
+       <TYP>ZNCPRH_DE016</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ISLNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>9 uzunluğunda numara alanı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ISLEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Süreci İşlem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SEQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Sıra Numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_BUTTON</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Süreci Butonlar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SEQNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Onay Sıra Numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

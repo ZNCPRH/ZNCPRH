@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZNCPRH_MC001</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>Necip Reha M.C</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>001</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>002</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>003</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Verileri Kaydetme Başarılı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>Verileri Kaydetme Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Verileri Güncelleme Başarılı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Verileri Güncelleme Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>İşlem Numarası Boş ! Onaya Gönderme Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>İşlem Numarasına Ait Kayıt Bulunamadı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>İşlem Numarasına Ait Kaydın Durumu Onaya Göndermeye Uygun Değil !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Personel Alanı ve Alt Alanına Kayıtlı Onaycılar Bulunamadı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Onaya Gönderme İşlemi Başarılı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>192</MSGNR>
+     <TEXT>Onaya Gönderme İşlemi Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>193</MSGNR>
+     <TEXT>İşlem Numarasına Ait Kayıt Zaten Onaya Gönderilmiş !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>194</MSGNR>
+     <TEXT>İşlem Numarasına Ait Kayıt Zaten Onaya Gönderilmiş !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>195</MSGNR>
+     <TEXT>İşlem Numarası Boş ! İşlem Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>196</MSGNR>
+     <TEXT>Onay - Red - İptal İşlemi Boş !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>197</MSGNR>
+     <TEXT>Onaycı Sıra Numarası Boş Olduğu İçin İşlem Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>Kayıt Yönetici Onay Adımında Değil ! İşlem Başarısız !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>İşlem Onaycısı Bulunamadı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>&amp; Numaralı İşlem Onaylandı !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>&amp; Numaralı İşlem Reddedildi !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>&amp; Numaralı İşlem İptal Edildi !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>&amp; Numaralı İşlem Tamamlanarak Akort Sürecine Kaydedildi !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Yapılmak İstenilen İşlem Bilinmiyor! ( Onay-Red-İptal&apos;den Biri Olmalı ! )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZNCPRH_MC001</ARBGB>
+     <MSGNR>205</MSGNR>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

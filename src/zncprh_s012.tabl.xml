@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZNCPRH_S012</TABNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Dinamik Table Dinamik Data</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZNCPRH_S012</TABNAME>
+     <FIELDNAME>PRDPERC</FIELDNAME>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000012</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000022</LENG>
+     <DECIMALS>000004</DECIMALS>
+     <MASK>  DEC</MASK>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

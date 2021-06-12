@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Genel Fonksiyonlar</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZNCPRH_FG001TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZNCPRH_FG001</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZNCPRH_FG001_001</FUNCNAME>
+     <SHORT_TEXT>Display ALV with itab</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_TABLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ANY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FULL_ALV</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TITLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-TITLE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_SUM_FIELDS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CCGLD_FIELDNAMES</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_TABLE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FULL_ALV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Seçme kutusu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TITLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Title Line Content of Current Dynpro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SUM_FIELDS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZNCPRH_FG001_002</FUNCNAME>
+     <SHORT_TEXT>SH Exit FM</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>SHLP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SHLP_DESCR</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CALLCONTROL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DDSHF4CTRL</TYP>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SHLP_TAB</PARAMETER>
+       <TYP>SHLP_DESCT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RECORD_TAB</PARAMETER>
+       <DBSTRUCT>SEAHLPRES</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SHLP_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Alternatif basit arama yardımlarının listesi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RECORD_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Arama yardımı sonuç yapısı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SHLP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Arama yardımı tanımı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CALLCONTROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Arama yardımı çıkışı içeren F4 prosesi için denetim yapısı</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

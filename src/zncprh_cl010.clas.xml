@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZNCPRH_CL010</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Shared Memory Area Class</DESCRIPT>
+    <CATEGORY>45</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>S</RSTAT>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>AREA_NAME</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Name einer Gebietsklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>ATTACH_FOR_READ</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Anfordern einer Lesesperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>ATTACH_FOR_UPDATE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Anfordern einer Änderungssperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>ATTACH_FOR_WRITE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Anfordern einer Schreibsperre</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>BUILD</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Direkter Aufruf des Gebietskonstruktors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>DETACH_AREA</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aufheben aller Sperren auf alle Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>FREE_AREA</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Löschen aller Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>FREE_INSTANCE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Löschen einer Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>GET_GENERATOR_VERSION</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Generator-Version abfragen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>GET_INSTANCE_INFOS</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Liefert die Namen aller Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>INVALIDATE_AREA</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktive Versionen aller Instanzen werden auf veraltet gesetzt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>INVALIDATE_INSTANCE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Aktive Version einer Instanz wird auf veraltet gesetzt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>ROOT</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>SHM: Modell einer Datenklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>SET_ROOT</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Setzt Wurzelobjekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>_LIFE_CONTEXT</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Lebensdauer eines Gebiets (Konstanten in CL_SHM_AREA)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>_TRACE_ACTIVE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>(intern) Flag: Trace aktiv?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>_TRACE_SERVICE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>(intern) Referenz auf Trace-Klasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZNCPRH_CL010</CLSNAME>
+     <CMPNAME>_VERSION_</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>(intern)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
